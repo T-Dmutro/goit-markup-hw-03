@@ -1,15 +1,27 @@
+* {
+    box-sizing: border-box;
+}
 body {
     color: #212121;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
     
 }
+
 :root{
     --primary-title-color: #212121;
     --secondary-title-color: #757575;
     --adress-color: #ffffff;
     --hover-effect-color: #2196F3;
     --futer-color: #2F303A;
+
+}
+/*.header{
+    
+}*/
+.container{
+    display: flex;
+    
 
 }
 .logo{
@@ -20,6 +32,8 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: blue;
+    margin-top: 24px;
+    margin-bottom: 25px;
 }
 .logo-studio{
 
@@ -29,17 +43,26 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: black;
+    margin-top: 24px;
+    margin-bottom: 25px;
     }
     .ul{
         list-style: none;
+        display: flex;
+        margin: 32px 50px;
     }
-.btn-menu{
+    .contact{
+        margin-left: auto;
+    }
     
+.btn-menu{
+   
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-title-color);
+    margin: 32px 50px;
 }
 .btn-menu:hover,:focus{color: var(--hover-effect-color);}
 
@@ -50,10 +73,14 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-title-color);
+    margin: 32px 50px;
 }
 .adress-contakt:hover,:focus{color: var(--hover-effect-color);}
 .hero{
     background-color: var(--futer-color);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
 
 }
 .hero-text{
@@ -65,6 +92,7 @@ body {
     text-transform: uppercase;
     color: var(--adress-color)
     
+    
 }
 .hero-button{
     font-family: Roboto;
@@ -74,10 +102,16 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     letter-spacing: 0.06em;
     cursor: pointer;
     color: var(--adress-color);
     background-color: var(--hover-effect-color);
+}
+.advantage{
+    margin-top: 94px;
+    padding-bottom: 94px;
 }
 .advantage-title{
     font-family: Roboto;
@@ -101,6 +135,12 @@ body {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+.prezent-picture{
+    display: flex;
+    justify-content: space-around;
+    list-style-type:none
 }
 
 
@@ -113,6 +153,14 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-title-color);
+    margin-bottom: 50px
+    
+}
+.comadn-box{
+    display: flex;
+    justify-content: space-around;
+    list-style-type:none
+
 }
 .comand-person{
     font-weight: 500;
@@ -124,6 +172,7 @@ body {
 
 }
 .comand-proffession{
+    
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -174,3 +223,4 @@ body {
     color: var(--secondary-title-color);
 
 }
+/*flex*/

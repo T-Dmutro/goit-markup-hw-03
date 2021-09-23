@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
       <style> a {text-decoration: none}</style>
       <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,9 +15,10 @@
 <body> 
 
     <header class="header">
-        
+        <div class="container">
         <a  href="./index.html" class="logo">Web<span class="logo-studio">Studio</span></a>
         <nav>
+            <div class="nav">
             <ul class="ul">
                 <li>
                    <a class="btn-menu" href="./index.html">Студия</a> 
@@ -27,14 +29,15 @@
                    <a class="btn-menu" href="http://1">Контакты</a> 
                 </li>
             </ul>
+            </div>
         </nav>
-            <ul class="ul">
+            <ul class="ul contact">
                 <li>
                 <a class="adress-contakt" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li><a class="adress-contakt" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        
+        </div>
         </header>
         <!--section main-->
         <main class="main">
@@ -45,7 +48,9 @@
         </section>
         <!--section peculiarity-->
         <section>
+            <div class="advantage">
             <ul class="ul">
+                
                 <li>
                     <h3 class="advantage-title">Внимание к деталям</h3>
                     <p class="advantage-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -62,11 +67,13 @@
                     <h3 class="advantage-title">Современные технологии</h3>
                     <p class="advantage-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
-        </ul>
+            </ul>
+        </div>
     </section>
     <section>
         <h2 class="prezent" >Чем мы занимаемся</h2>
-        <ul class="ul">
+        <div class="prezent-picture"
+        <ul class="ul ">
             <li>
                <img class="prezent-picture"  src="./img/img.jpg" alt="пишет текст на компютере" width="370" height="294"> 
             </li>
@@ -77,9 +84,11 @@
                <img class="prezent-picture"  src="./img/img2.jpg" alt="подберает цвет на планшете" width="370" height="294"> 
             </li>
         </ul>
+        </div>
     </section>
     <section>
         <h2 class="comand">Наша команда</h2>
+        <div class="comadn-box"
         <ul class="ul">
             <li>
                 <img class="comand-foto" src="./img/igor.jpg" alt="Игорь Демьяненко" width="270" height="260">
@@ -102,6 +111,7 @@
                 <p class="comand-profession" lang="en"> UI Designer</p>
             </li>
         </ul>
+    </div>
     </section>
     </main>
     <footer class="footer">
