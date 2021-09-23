@@ -1,0 +1,176 @@
+body {
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+    
+}
+:root{
+    --primary-title-color: #212121;
+    --secondary-title-color: #757575;
+    --adress-color: #ffffff;
+    --hover-effect-color: #2196F3;
+    --futer-color: #2F303A;
+
+}
+.logo{
+    
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: blue;
+}
+.logo-studio{
+
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: black;
+    }
+    .ul{
+        list-style: none;
+    }
+.btn-menu{
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-title-color);
+}
+.btn-menu:hover,:focus{color: var(--hover-effect-color);}
+
+.adress-contakt{
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-title-color);
+}
+.adress-contakt:hover,:focus{color: var(--hover-effect-color);}
+.hero{
+    background-color: var(--futer-color);
+
+}
+.hero-text{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--adress-color)
+    
+}
+.hero-button{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height:1.85;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: var(--adress-color);
+    background-color: var(--hover-effect-color);
+}
+.advantage-title{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.42;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-title-color);
+}
+.advantage-text{
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-title-color);
+}
+.prezent{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+/*comand*/
+.comand{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-title-color);
+}
+.comand-person{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-title-color);
+
+}
+.comand-proffession{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-title-color);
+}
+.adress{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    columns: var(--adress-color);
+}
+.footer{
+    background-color: var(--futer-color);
+}
+/*page2-portfolio*/
+.btn-menu-portfolio{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: var(--primary-title-color);
+    background-color: #F5F4FA;
+    border-color: transparent;
+    
+    
+}
+.btn-menu-portfolio:hover, :focus{
+    color: var(--adress-color);
+    background-color: var(--hover-effect-color);
+}
+.gallery-job {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-title-color);
+}
+.gallery-menu {
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-title-color);
+
+}
