@@ -46,13 +46,24 @@ body {
     margin-top: 24px;
     margin-bottom: 25px;
     }
-    .ul{
+    .nav-menu {
         list-style: none;
         display: flex;
-        margin: 32px 50px;
+        
     }
+    .nav-menu li {
+         margin: 32px 50px; }
+    .ul{
+         list-style: none;
+         display: flex;
+         }
+                
     .contact{
         margin-left: auto;
+        
+    }
+    .contact li{
+        margin: 32px 50px;
     }
     
 .btn-menu{
@@ -62,7 +73,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-title-color);
-    margin: 32px 50px;
+    
 }
 .btn-menu:hover,:focus{color: var(--hover-effect-color);}
 
@@ -187,6 +198,11 @@ body {
 }
 .footer{
     background-color: var(--futer-color);
+}
+.footer-menu{
+    
+        list-style-type: none;
+        text-decoration: none;
 }
 /*page2-portfolio*/
 .btn-menu-portfolio{
