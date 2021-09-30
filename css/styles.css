@@ -26,12 +26,13 @@ body {
 .nav{ 
     display: flex;
    }
-.header a {
-    padding-top: 32px;
+.header a,.mail-box {
+    /*margin-top: 32px;
+    margin-bottom: 32px;*/
+        padding-bottom: 32px;
+        padding-top: 32px;
 }
-.header ul{
-    margin-top: 32px;
-}
+
 .link{
     display: block;
     text-decoration: none;
@@ -44,17 +45,18 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: blue;
+    color: var(--hover-effect-color);
     text-decoration: none;
     list-style: none;
     
 }
-a.logo{
+/*a.logo{
     margin-top: 0px;
-}
+}*/
 .logo-studio{
     display: flex;
     margin-right: 93px;
+    
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -85,7 +87,6 @@ a.logo{
     }
 .btn-menu{
     margin-right: 50px;
-    
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -110,9 +111,14 @@ a.logo{
     
    
 .adress-contakt:hover,:focus{color: var(--hover-effect-color);}
-.mail{
-    display: flex; 
-  margin-left: auto;
+
+.mail{margin-left: auto;
+    
+    
+}
+.mail-box{
+    display: inline-block;
+    margin-left: auto;
     margin-right: 50px;
     text-decoration: none;
     list-style: none;
@@ -120,9 +126,10 @@ a.logo{
 .last{margin-right: 0px;}
 
 .hero{
-    height: 510px;
     background-color: var(--futer-color);
     padding-top: 200px;
+    padding-bottom: 200px;
+    
 
 }
 
@@ -130,8 +137,8 @@ a.logo{
     display: flex;
     justify-content: center;
     box-sizing: content-box;
-    
-    margin-bottom: 40px;
+    margin-top: 0px;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -156,12 +163,12 @@ a.logo{
     background-color: var(--hover-effect-color);
 }
 /*feature*/
-.feature{padding-bottom: 94px;
+.feature{/*padding-bottom: 94px;*/
 padding-top: 94px;}
-.description{
-    margin-right: 30px;
+.description:last-child{
+    margin-right: 0px;
 }
-.description :last-of-type{margin-right: 0px;}
+
 .advantage-title{
     display: inline-block;
     margin-bottom: 10px;
@@ -183,6 +190,12 @@ padding-top: 94px;}
     color: var(--secondary-title-color);
 }
 /*prezent*/ 
+.prezent-picture {
+        
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
 
 .workers{
     padding-top: 94px;
@@ -204,7 +217,7 @@ padding-top: 94px;}
     margin-right: 30px;
     
 }
-.prezent-link :end{ margin-right: 0px;}
+.prezent-link:last-of-type{margin-right: 0px;}
 /*comand*/
 
 .comand-section {
@@ -231,19 +244,28 @@ padding-top: 94px;}
     flex-direction: column;
     justify-content: center;
     background-color: var(--adress-color);
-    padding-right: 30px;
+    margin-right: 30px;
+    border-radius: 0px 0px 4px 4px;
     
 }    
+.comand-li:last-of-type{margin-right: 0px;}
 .comand-foto{
     display: block;
     max-width: 100%;
     height: auto;
     
 }
+   
+.comand-cart p,h3{display: flex;
+        justify-content: center;}
+.comand-cart p{margin-top: 10px;
+margin-bottom: 30px;}
 .comand-person{
+    
+    margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 500;
-    font-size: 16px;
+    /*font-size: 16px;*/
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
@@ -251,7 +273,8 @@ padding-top: 94px;}
 
 }
 .comand-proffession{
-    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--secondary-title-color);
@@ -277,12 +300,11 @@ padding-top: 94px;}
     display: flex;
     justify-content: center;
 }
-.secondary-section{padding-left: 0px;
-    padding-right: 0px;
-    
-}
+
+
 .btn-section{
     margin-right: 8px;
+    
 }
 .btn-menu-portfolio{
     display: flex;
@@ -301,17 +323,19 @@ padding-top: 94px;}
     border-color: transparent;
        
 }
+.galary-box{padding-top: 94px;
+padding-bottom: 94px;}
 .gallery{
     flex-wrap: wrap;
 }
 .foto-gallery{
-    padding-right: 30px;
-    padding-bottom: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 .foto-gallery:nth-child(3n) {
-    padding-right: 30px;}
+    margin-right: 0px;}
 .foto-gallery:nth-last-child(-n+3) {
-    padding-bottom: 30px;}
+    margin-bottom: 0px;}
 
 .btn-menu-portfolio:hover, :focus{
     color: var(--adress-color);
@@ -335,11 +359,13 @@ padding-top: 94px;}
 
 }
 .footer{width: 1200px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer a{
     display: inline-block;
-    margin-bottom: 20px;
-    margin-top: 60px;
+   /* margin-bottom: 20px;*/
+    
 }
 .adress-footer {
     padding-left: 0px;
